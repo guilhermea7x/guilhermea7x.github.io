@@ -220,4 +220,14 @@ header .btnContato button:hover{
     .container-menu .row div {
         margin-bottom: 10px;
     }
+
+    .menuDesktop {
+        display: none;
+    }
+}
+/* RESPONSIVIDADE DO SEGUNDO MENU*/
+@media (min-width: 768px) {
+    .menuMobile{
+        display: none;
+    }
 }
